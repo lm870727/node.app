@@ -1,0 +1,6 @@
+ // 公共的样式
+
+ // 把 px 转化成 rem
+  @function rem($px){
+    @return $px/75px * 1rem;
+  }

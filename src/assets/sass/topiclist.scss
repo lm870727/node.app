@@ -1,0 +1,43 @@
+// 主题列表的 样式
+.items{
+  margin: 0 auto;
+  width: rem(720px);
+  .item{
+    display:flex;
+    align-items: center;
+    height:rem(105px);
+    border-bottom:rem(1px) solid #f0f0f0;
+    img{
+      display: block;
+      width: rem(60px);
+      height: rem(60px);
+      border-radius:rem(8px);
+    }
+    .tab{
+      width: rem(80px);
+      margin: 0 rem(20px); 
+      div{
+        width: rem(70px);
+        height: rem(38px);
+        font-size: rem(25px);
+        text-align: center;
+        line-height: rem(38px);
+        border-radius: rem(5px); 
+        background:#e5e5e5;         
+      }
+      .top{
+        background:#509030;
+        color:#fff;
+      }
+    }
+    .title{
+      flex:1;
+      font-size: rem(30px);
+      line-height: rem(40px);
+      color:#333;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}
